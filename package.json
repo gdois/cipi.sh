@@ -1,0 +1,31 @@
+{
+  "name": "dimarketi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.1.2",
+    "next-translate": "^1.0.5",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4"
+  }
+}
