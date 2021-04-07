@@ -1,10 +1,27 @@
-import Button from "../components/Button";
+import About from "../container/About";
+import Features from "../container/Features";
+import GetCipi from "../container/GetCipi";
+import Process from "../container/Process";
+import Project from "../container/Project";
 
 const Home = () => (
-  <div>
-    <h1 className="text-3xl text-center m-auto font-bold">Hello World!</h1>
-    <Button />
-  </div>
+  <main>
+    <section>
+      <About />
+    </section>
+    <section className="bg-grayWhite">
+      <Features />
+    </section>
+    <section>
+      <Process />
+    </section>
+    <section className="bg-purple">
+      <GetCipi />
+    </section>
+    <section>
+      <Project />
+    </section>
+  </main>
 );
 
 export default Home;
