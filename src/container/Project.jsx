@@ -12,7 +12,7 @@ const Project = () => (
       {" "}
       for developers
     </p>
-    <div className="grid grid-cols-3 gap-4">
+    <div className="lg:grid lg:grid-cols-3 gap-4">
       <div className="col-span-2">
         <h4 className="text-base font-bold text-grayBlack mb-2">
           About Cipi
