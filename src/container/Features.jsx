@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 const Features = () => (
   <div className="lg:container lg:mx-auto px-4 py-10 items-center">
-    <h3 className="text-3xl text-center font-bold mb-2">Features</h3>
+    <h3 className="text-3xl text-black text-center font-bold mb-2">Features</h3>
     <p className="text-center mb-5 text-gray text-lg">
       Cipi is a modern control panel for your cloud service
     </p>
