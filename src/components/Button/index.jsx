@@ -1,9 +1,9 @@
 import P from "prop-types";
 
 const Button = ({
-  text, icon, backgroundColor, color, click, marginSize,
+  text, icon, background, color, click, margin,
 }) => (
-  <button onClick={click} className={`flex items-center ${marginSize} py-2.5 px-5 text-${color} ${backgroundColor} font-semibold shadow-lg rounded`} type="button">
+  <button onClick={click} className={`flex items-center ${margin} py-2.5 px-5 ${color} ${background} font-semibold shadow-lg rounded`} type="button">
     {!!icon && <div className="mr-2">{icon}</div>}
     {" "}
     {text}
@@ -13,19 +13,19 @@ const Button = ({
 Button.propTypes = {
   text: P.string,
   color: P.string,
-  icon: P.string,
+  icon: P.object,
   click: P.func,
-  marginSize: P.string,
-  backgroundColor: P.string,
+  margin: P.string,
+  background: P.string,
 };
 
 Button.defaultProps = {
   text: "",
-  color: "white",
-  icon: "",
+  color: "text-white",
+  icon: [],
   click: () => {},
-  marginSize: "",
-  backgroundColor: "bg-purple",
+  margin: "",
+  background: "bg-purple",
 };
 
 export default Button;

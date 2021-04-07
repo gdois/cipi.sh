@@ -13,13 +13,13 @@ const Card = ({ icon, title, text }) => (
 Card.propTypes = {
   title: P.string,
   text: P.string,
-  icon: P.string,
+  icon: P.object,
 };
 
 Card.defaultProps = {
   title: "",
   text: "",
-  icon: "",
+  icon: {},
 };
 
 export default Card;

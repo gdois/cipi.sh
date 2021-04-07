@@ -2,6 +2,9 @@ module.exports = {
   purge: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}", "./src/container/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    zIndex: {
+      100: "9999999",
+    },
     colors: {
       blue: "#2330E1",
       purple: "#4550E6",

@@ -1,1 +1,82 @@
-{}
+{
+  "english": "Inglês",
+  "portuguese": "Português",
+  "language": "Idioma",
+  "documentation": "Documentação",
+  "about": {
+    "title": "Instale e gerencie seu servidor como um profissional",
+    "text": "Com o Cipi; você não precisa ser um administrador de sistemas para implantar e gerenciar sites e aplicativos PHP baseados em nuvem VPS. Cipi é um projeto de código aberto e você pode usá-lo dentro da",
+    "buttonInstall": "Instale",
+    "buttonDocs": "Docs"
+  },
+  "features": {
+    "title": "Recursos",
+    "text": "Cipi é um painel de controle moderno para seu serviço de nuvem",
+    "cards": {
+      "one": {
+        "title": "É como Magica",
+        "text": "Instale e configure um ou mais servidores com um clique em poucos minutos."
+      },
+      "two": {
+        "title": "Criado para a nuvem",
+        "text": "Cipi funciona em AWS; Digital Ocean; Google Cloud e outros clouds."
+      },
+      "three": {
+        "title": "Fácil de usar",
+        "text": "Gerencie um ou mais servidores com a mesma facilidade com que tomasse um café."
+      },
+      "four": {
+        "title": "Amigo do PHP",
+        "text": "Cipi cria uma stack LEMP incrível para seus projetos PHP."
+      },
+      "five": {
+        "title": "Seguro e atualizado",
+        "text": "A Cipi cuida da segurança e das atualizações do seu servidor."
+      },
+      "six": {
+        "title": "Pronto para integração",
+        "text": "Cipi vem com APIs incríveis, úteis para integração em qualquer lugar."
+      }
+    }
+  },
+  "process": {
+    "title": "Como funciona",
+    "text": "Você está a apenas alguns passos da instalação",
+    "one": {
+      "title": "Instalação",
+      "primary": "Instale o Cipi em seu servidor executando",
+      "code": " wget -O - https://cipi.sh/go.sh | bash ",
+      "secondary": "em uma nova instalação do Ubuntu 20.04."
+    },
+    "two": {
+      "title": "Gerencie",
+      "text": "Use o incrível Cipi UI para gerenciar as configurações de seus sites (domínios, repositório Git, versão PHP-FPM, certificados SSL, etc...)"
+    },
+    "three": {
+      "title": "Deploy",
+      "text": "Faça o deploy de projetos incríveis em uma construção da stack LEMP poderosa para seus sites, aplicativos da web e e-commerce."
+    }
+  },
+  "get": {
+    "title": "Adquira o Cipi",
+    "get": "Use",
+    "code": "wget -O - https://cipi.sh/go.sh | bash",
+    "text": "em sua VPS."
+  },
+  "project": {
+    "title": "O Projeto",
+    "primary": "Feito com",
+    "secondary": "por programadores",
+    "textLeft": {
+      "title": "Sobre o Cipi",
+      "text": "Cipi é um painel de controle de servidor em nuvem baseado em Laravel que suporta Digital Ocean, AWS, Linode, Azure, Vultr, Google Cloud e outros VPS. Vem com Nginx, Mysql, versões multi PHP-FPM, multiusuários, Supervisor, Composer, npm, certificados Let's Encrypt grátis, implantação Git, fail2ban, Redis, API e com uma interface gráfica simples útil para gerenciar Laravel, Codeigniter, Symfony , WordPress ou outros sites PHP."
+    },
+    "textRight": {
+      "title": "Por que usar o Cipi?",
+      "text": "Cipi é fácil, estável, poderoso e gratuito para qualquer uso pessoal e comercial e é uma alternativa perfeita para Runcloud, Ploi.io, Serverpilot, Forge, Moss.sh e softwares semelhantes..."
+    },
+    "footer": {
+      "text": "Você precisa de suporte? Por favor abra uma"
+    }
+  }
+}

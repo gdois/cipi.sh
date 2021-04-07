@@ -9,16 +9,16 @@ const Home = () => (
     <section>
       <About />
     </section>
-    <section className="bg-grayWhite">
+    <section id="features" className="bg-grayWhite">
       <Features />
     </section>
-    <section>
+    <section id="process">
       <Process />
     </section>
     <section className="bg-purple">
       <GetCipi />
     </section>
-    <section>
+    <section id="project">
       <Project />
     </section>
   </main>

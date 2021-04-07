@@ -21,5 +21,7 @@ module.exports = {
     quotes: [2, "double", { avoidEscape: true }],
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
+    "no-plusplus": "off",
+    "react/jsx-filename-extension": [1, { allow: "as-needed" }],
   },
 };
