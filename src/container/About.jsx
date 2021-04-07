@@ -24,8 +24,8 @@ const About = () => (
         .
       </p>
       <div className="flex">
-        <Button text="Install" icon={<FaTerminal />} marginSize="2" />
-        <Button text="Docs" icon={<FaBook />} backgroundColor="grayBlack" />
+        <Button text="Install" icon={<FaTerminal />} marginSize="mr-2" />
+        <Button text="Docs" icon={<FaBook />} backgroundColor="bg-grayBlack" />
       </div>
     </div>
     <img src="promo-figure-alt.svg" width="550px" alt="PC" />
