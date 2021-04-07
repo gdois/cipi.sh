@@ -18,7 +18,8 @@ module.exports = {
     "react",
   ],
   rules: {
-    "react/react-in-jsx-scope": "off",
     quotes: [2, "double", { avoidEscape: true }],
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
   },
 };
