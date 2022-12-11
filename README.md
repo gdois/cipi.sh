@@ -6,6 +6,6 @@ Check out the oficial repository: https://github.com/andreapollastri/cipi.sh
 
 TODO:
 - [X] Interface
-- [ ] Translate page with NextTranslate
-- [ ] SEO
-- [ ] Optimize perfomance for Google LightHouse
+- [X Translate page with NextTranslate
+- [X] SEO
+- [X Optimize perfomance for Google LightHouse
